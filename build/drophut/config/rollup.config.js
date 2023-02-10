@@ -2,8 +2,6 @@
 
 const { babel } = require('@rollup/plugin-babel')
 
-const pkg = require('../../../package')
-const year = new Date().getFullYear()
 const banner = ``
 
 module.exports = {
