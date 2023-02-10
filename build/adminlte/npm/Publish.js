@@ -43,7 +43,7 @@ class Publish {
         if (fse.existsSync(module.from)) {
           fse.copySync(module.from, module.to, fseOptions)
         } else {
-          fse.copySync(module.from.replace('node_modules/', '../'), module.to, fseOptions)
+          fse.copySync(module.from.replace('node_modules/', '../../../'), module.to, fseOptions)
         }
 
         if (this.options.verbose) {
