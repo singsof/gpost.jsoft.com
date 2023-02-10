@@ -6,10 +6,10 @@ const { babel } = require('@rollup/plugin-babel')
 const banner = ``
 
 module.exports = {
-  input: '/build/adminlte/js/AdminLTE.js',
+  input: 'build/adminlte/js/AdminLTE.js',
   output: {
     banner,
-    file: '/public/store/adminlte/js/adminlte.js',
+    file: 'public/store/adminlte/js/adminlte.js',
     format: 'umd',
     globals: {
       jquery: 'jQuery'
