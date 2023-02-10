@@ -1,0 +1,29 @@
+php artisan config:clear
+php artisan cache:clear
+composer dump-autoload
+php artisan view:clear
+php artisan route:clear
+
+
+php artisan migrate
+php artisan migrate:fresh
+php artisan migrate:install
+php artisan migrate:refresh
+php artisan migrate:reset
+php artisan migrate:rollback
+php artisan migrate:status
+php artisan optimize:clear
+php artisan queue:clear
+php artisan route:clear
+php artisan schedule:clear-cache
+php artisan view:clear
+
+
+php artisan migrate:refresh --seed
+
+
+## เปิดใช้งาน
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+#sass --watch app/sass:public/stylesheets
+sass  build/drophut/css/drophut.scss public/store/drophut/css/drophut.css
