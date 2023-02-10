@@ -1,1 +1,1 @@
-{"version":3,"file":"drophut.js","sources":["../../../../build/drophut/js/drophut.js"],"sourcesContent":["$(($)=>{\n\nalert('sdf');\n\n})\n"],"names":["$","alert"],"mappings":";;;;;CAAAA,CAAC,CAAEA,CAAC,IAAG;GAEPC,KAAK,CAAC,KAAK,CAAC,CAAA;CAEZ,CAAC,CAAC;;;;;;"}
+{"version":3,"file":"drophut.js","sources":["../../../../build/drophut/js/drophut.js"],"sourcesContent":["$(($) => {\n    \"use strict\";\n    // alert(\"sdf\");\n});\n"],"names":["$"],"mappings":";;;;;IAAAA,CAAC,CAAEA,CAAC,IAAK;;IAEL;IACJ,CAAC,CAAC;;;;;;"}

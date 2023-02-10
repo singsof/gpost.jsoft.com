@@ -6,19 +6,19 @@
         },
         {
             "from": "build/drophut/js/main.js",
-            "to": "public/store/drophut/js/main.js"
+            "to": "public/plugins/drophut/main.js"
         },
         {
             "from": "build/drophut/css/plugins.css",
-            "to": "public/store/drophut/css/plugins.css"
+            "to": "public/assets/css/plugins.css"
         },
         {
             "from": "build/drophut/css/style.css",
-            "to": "public/store/drophut/css/style.css"
+            "to": "public/assets/css/style.css"
         },
         {
             "from": "build/drophut/css/custom.css",
-            "to": "public/store/drophut/css/custom.css"
+            "to": "public/assets/css/custom.css"
         }
     ]
 }

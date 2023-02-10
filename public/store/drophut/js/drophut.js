@@ -1,11 +1,12 @@
 (function (factory) {
-	typeof define === 'function' && define.amd ? define(factory) :
-	factory();
+    typeof define === 'function' && define.amd ? define(factory) :
+    factory();
 })((function () { 'use strict';
 
-	$($ => {
-	  alert('sdf');
-	});
+    $($ => {
+
+      // alert("sdf");
+    });
 
 }));
 //# sourceMappingURL=drophut.js.map

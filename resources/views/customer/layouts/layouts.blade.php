@@ -12,15 +12,13 @@
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
 
-    <!-- CSS
-    ========================= -->
 
     <!-- Plugins CSS -->
     <link rel="stylesheet" href="{{ asset('assets/css/plugins.css') }}">
     <!-- Main Style CSS -->
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/custom.css') }}">
-    <link rel="stylesheet" href="{{ asset('store/drophut/css/drophut.css') }}">
+    {{-- <link rel="stylesheet" href="{{ asset('store/drophut/css/drophut.css') }}"> --}}
 
 
 </head>
@@ -32,6 +30,7 @@
     <div class="off_canvars_overlay">
     </div>
     @include('customer.layouts.menu')
+
     @yield('content')
 
     <!--footer area start-->
@@ -96,13 +95,11 @@
             </div>
         </div>
     </footer>
-    <!--footer area end-->
-    <!-- JS
-============================================ -->
 
 
-    <script src="{{ asset('store/drophut/js/plugins.js') }}"></script>
-    <script src="{{ asset('store/drophut/js/main.js') }}"></script>
+
+    <script src="{{ asset('plugins/drophut/plugins.js') }}"></script>
+    <script src="{{ asset('plugins/drophut/main.js') }}"></script>
     <script src="{{ asset('store/drophut/js/drophut.min.js') }}"></script>
 
 
